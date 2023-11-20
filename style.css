@@ -1,0 +1,147 @@
+*{
+    color: #000000;
+    list-style: none;
+}
+table{
+    margin: 0 auto;
+}
+
+td{
+    text-align: center;
+    width : 300px;
+}
+
+td img{
+    width:180px;
+    height:200px;
+}
+#nav{
+    height: 80px;
+}
+
+#nav ul{
+    padding-top: 15px;
+    display: flex;
+    margin-left: 80%;
+}
+
+#nav ul li{
+    margin-left : 30px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.box{
+    margin-top: 200px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.contentBox{
+    margin-top: 40px;
+    background-color: rgb(228, 228, 228);
+    width: 600px;
+    height: 150px;
+}
+
+.description{
+  color: #242424;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+#cntBtn{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+}
+
+#minus, #plus{
+    width : 30px;
+    height: 30px;
+    border: 0.5px solid gray;
+    font-size: 20px;
+    background-color: #ffffff;
+    color:#242424;
+}
+
+#cnt{
+    width:80px;
+    height: 28.5px;
+    background-color: #ffffff;
+    color:#242424;
+    font-size: 18px;
+    text-align: center;
+    border: 0.5px solid gray;
+}
+
+#result{
+    margin-left : 300px;
+    font-size: 20px;
+}
+
+.sum{
+    padding-top: 70px;
+    text-align: center;
+}
+
+#sumText{
+    font-size : 23px;
+    margin-left : 350px;
+}
+
+#sumResult{
+    font-size: 30px;
+    margin-left: 5px;
+    color : rgb(255, 73, 73);
+    font-weight: 700;
+}
+
+.thirdBox{
+    margin-top: 50px;
+}
+
+.thirdBox input{
+    border: none;
+    width: 297px;
+    height: 45px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#bucket{
+    background-color: #494949;
+}
+
+#buy{
+    background-color: #ff3e3e;
+}
+.join{
+    text-align: center;
+
+}
+.join h1{
+    margin-top: 150px;
+}
+
+.join input{
+    width: 680px;
+    height : 50px;
+    font-size: 15px;
+    padding-left: 8px;
+    margin-top:30px;
+}
+
+#idBox{
+    margin-top: 40px;
+}
+
+#joinBtn button{
+    margin-top:30px;
+    width: 680px;
+    height : 60px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #6028e2;
+}
